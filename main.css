@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, #eb00fc00, #822c82eb);
+    background-size: cover;
+    font-family:'Times New Roman', Times, serif;
+    display: grid;
+    place-items: center;
+    
+}
+
+label {
+    width: 100%;
+    color: #777;
+    align-items: flex-start;
+    transition: 0.15s linear;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #222; 
+    text-align: center;   
+    padding: 10px;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0 1.8rem rgba(black)
+    (0, 0, 0, 0.15);
+    border: double rgb(0, 0, 0);
+}
+
+input {
+font-size: 1.1875rem;
+color:#404040;
+padding: 1rem 0 0.5rem 0;
+width: 100%;
+border: none;
+border-color: #a0a0a0;
+border-bottom-width: 1px;
+border-bottom-style:dotted;
+margin-bottom: 3rem;
+transition: 0.15seg linear;
+}
+
+
+button {
+    font-size: 0.8125rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2 rem;
+    cursor: pointer;
+    background: transparent;
+    color: #81259d;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    transition: 0.25s;
+    
+    }
+    
+    button:hover, 
+    button:focus {
+        outline: none;
+        background: #8d3dc8;
+        color:#fff;
+    }
+
+    #resultado {
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
